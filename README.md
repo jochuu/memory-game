@@ -12,6 +12,7 @@ to do:
 - fix CSS so DOM doesn't 'flash' on change occasionally
 - add pokemon cries on click
 - add a better / more obvious game over message
+- cleanup functions on useEffects required?
 
 [live demo](https://pokemon-reverse-match.vercel.app/)
 
