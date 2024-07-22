@@ -8,10 +8,12 @@ learning outcomes:
 - utilising useEffect with the dependency array
 
 to do:
+
+- fix CSS so DOM doesn't 'flash' on change occasionally
 - add pokemon cries on click
 - add a better / more obvious game over message
 
-[live demo]()
+[live demo](https://pokemon-reverse-match.vercel.app/)
 
 instructions:
 
