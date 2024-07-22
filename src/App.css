@@ -1,0 +1,96 @@
+#root {
+  max-width: 1280px;
+  min-height: 15rem;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: rgb(252, 252, 252, 0.01);
+  border-radius: 13px;
+  outline: 1px solid rgb(252, 252, 252, 0.1);
+  text-transform: lowercase;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 1rem;
+}
+
+.title-item {
+  margin: 0;
+}
+
+.small-caps {
+  font-variant: small-caps;
+}
+
+.game {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 1rem;
+  place-items: center;
+}
+
+.card {
+  background-color: rgb(252, 252, 252, 0.01);
+  margin: 1rem;
+  padding: 2rem;
+  cursor: pointer;
+  border-radius: 23px;
+  transition: background-color 333ms ease;
+
+}
+
+.card:hover {
+  background-color: rgba(255, 196, 0, 0.1);
+}
+
+.card>img:hover {
+  border-radius: 44%;
+}
+
+.game-state {
+  min-height: 4rem;
+}
+
+.game-state-game-over {
+  padding: 0.1rem;
+  background-color: rgba(124, 1, 1, 0.5);
+  border-radius: 13px;
+  outline: 1px solid rgba(255, 0, 0, 0.795);
+}
+
+.score-board {}
+
+.score-board-header {
+  font-size: larger;
+  margin: 0 auto;
+  font-weight: 600;
+}
+
+.score-board-body {
+  display: flex;
+  place-content: center;
+}
+
+.current-score {
+  padding: 1rem;
+  font-weight: 800;
+}
+
+.best-score {
+  padding: 1rem;
+  font-weight: 600;
+
+}
+
+.current-score::before {
+  content: '🎖️';
+  margin: 0.2rem;
+}
+
+.best-score::before {
+  content: '🏆';
+  margin: 0.2rem;
+}
